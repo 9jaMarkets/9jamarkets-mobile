@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:naija_markets/app/constants/app_theme.dart';
 import 'package:naija_markets/presentation/splash_screen.dart';
+import 'package:naija_markets/screens/onboarding_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,7 +35,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SplashScreen(),
+      body: OnboardingScreen(),
     );
   }
 }
